@@ -106,22 +106,7 @@ public class Bookingpage extends javax.swing.JFrame {
 
     }//GEN-LAST:event_fromActionPerformed
 
-    private void searchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_searchActionPerformed
-    if(from.getSelectedItem().toString().equals(to.getSelectedItem().toString())){
-        JOptionPane.showMessageDialog( null,"Flights cannot Take off and Land at the same place!" );
-    }
-    else{
-        from1 = from.getSelectedItem().toString();
-        to1 = to.getSelectedItem().toString();
-        Finalpage obj=new Finalpage(from1,to1);
-        obj.findflights();
-        obj.setVisible(true);
-    }
-    }//GEN-LAST:event_searchActionPerformed
-
-    private void toActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_toActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_toActionPerformed
+   
 
 
 
